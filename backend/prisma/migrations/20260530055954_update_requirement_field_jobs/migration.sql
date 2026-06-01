@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Job" ALTER COLUMN "reportedAt" DROP NOT NULL,
+ALTER COLUMN "editedAt" DROP NOT NULL;

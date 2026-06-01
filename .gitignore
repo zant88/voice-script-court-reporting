@@ -1,0 +1,47 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+.env*
+!.env.example
+
+# build output
+dist/
+build/
+out/
+
+# next.js
+.next/
+
+# prisma generated
+generated/
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+firebase-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Coverage
+coverage/
+
+# Misc
+*.pem
