@@ -171,7 +171,7 @@ frontend/
 ```
 
 ## Assumptions / Design Decisions
-I used next.js because it's one of open-source and popular web frontend development built on top of ReactJS which extending capability to load page quickly and SEO optimazation. For UI Component, i used tailwindcss and ShadCN for component UI. The theme i use is Maia style. For icons, i used hugeicons which one of the icons for the react developer. For backend, i used expressJS for simplicity with MVC pattern and utilizing prisma ORM to interact with database. For UI perspective, i tend to use minimalism, flat, modern with simple style. 
+I used next.js because it's one of open-source and popular web frontend development built on top of ReactJS which extending capability to load page quickly and SEO optimazation. For UI Component, i used tailwindcss and ShadCN for component UI. The theme i use is Maia style. For icons, i used hugeicons which one of the icons for the react developer. For backend, i used expressJS for simplicity with MVC pattern and utilizing prisma ORM to interact with database. The argon2 is selected due it's one of modern hasing mechanism over bcript. The UUIDv7 is also selected due the capability of inserting time in uuid generated. For UI perspective, i tend to use minimalism, flat, modern with simple style. 
 
 ## Screenshots
 | Login | Admin Dashboard |
