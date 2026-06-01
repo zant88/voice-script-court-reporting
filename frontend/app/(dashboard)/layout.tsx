@@ -82,8 +82,8 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       <Sidebar>
         <SidebarHeader className="border-b px-4 py-3">
           <Link href="/" className="flex items-center gap-2 font-semibold">
-            <HugeiconsIcon icon={DashboardSquareIcon} size={20} />
-            Voice Script
+            {/* <HugeiconsIcon icon={DashboardSquareIcon} size={20} /> */}
+            Court Reporting
           </Link>
         </SidebarHeader>
         <SidebarContent>
