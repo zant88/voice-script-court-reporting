@@ -79,28 +79,6 @@ erDiagram
     User ||--o{ TranscriptionVersion : "submits"
 ```
 
-## Screenshots
-
-| Login | Admin Dashboard |
-|:---:|:---:|
-| ![Login](screenshots/1_login.png) | ![Admin Dashboard](screenshots/2_admin-dashboard.png) |
-
-| User Table | Job Table |
-|:---:|:---:|
-| ![User Table](screenshots/3_user-table.png) | ![Job Table](screenshots/4_job-table.png) |
-
-| Job Creation | Job Reporter & Editor Assignment |
-|:---:|:---:|
-| ![Job Creation](screenshots/5_job-creation.png) | ![Job Reporter & Editor Assignment](screenshots/6_job-reporter-editor-assignment.png) |
-
-| Reporter Role View | Reporter Transcription Submit |
-|:---:|:---:|
-| ![Reporter Role View](screenshots/7_reporter-role.png) | ![Reporter Transcription Submit](screenshots/8_reporter-transcription-submit.png) |
-
-| Editor Editing | Admin Complete Job |
-|:---:|:---:|
-| ![Editor Editing](screenshots/9_editor-editing.png) | ![Admin Complete Job](screenshots/10_admin-complete-job.png) |
-
 ## How to run
 
 ### Prerequisites
@@ -165,26 +143,14 @@ Base URL: `/api`
 ```
 backend/
 ├── app.ts                    # Express app entry point
-├── controllers/
-│   ├── job.controller.ts     # Job route handlers
-│   └── user.controller.ts    # User route handlers
-├── services/
-│   ├── job.service.ts        # Job business logic
-│   └── user.service.ts       # User business logic
-├── routes/
-│   ├── index.ts              # Route aggregator
-│   ├── job.routes.ts         # Job routes
-│   └── user.routes.ts        # User routes
-├── middlewares/
-│   ├── auth.ts               # JWT authentication middleware
-│   └── errorHandler.ts       # Global error handler
-├── prisma/
-│   └── schema.prisma         # Database schema
-├── scripts/
-│   ├── create-admin.ts       # Seed admin user
-│   └── create-admin-cli.ts   # CLI admin seeder
+├── controllers/              # controllers folder
+├── services/                 # business logic
+├── routes/                   # routes folder
+├── middlewares/              # Middleware folder (auth, error handler)
+├── prisma/                   # Prisma schema
+├── scripts/                  # Scripts folder including for CLI
 └── generated/
-    └── prisma/               # Generated Prisma client
+    └── prisma/               # Generated Prisma client including model
 
 frontend/
 ├── app/
