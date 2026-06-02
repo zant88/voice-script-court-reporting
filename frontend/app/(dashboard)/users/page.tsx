@@ -102,9 +102,9 @@ export default function UserPage() {
                   <Button variant="outline" size="sm" onClick={() => router.push(`/users/${user.id}/edit`)}>
                     Edit
                   </Button>
-                  <Button variant="outline" size="sm" onClick={() => toggleStatus(user)}>
+                  {/* <Button variant="outline" size="sm" onClick={() => toggleStatus(user)}>
                     {user.isAvailable ? "Deactivate" : "Activate"}
-                  </Button>
+                  </Button> */}
                   <Button variant="destructive" size="sm" onClick={() => handleDelete(user.id)}>
                     Delete
                   </Button>
